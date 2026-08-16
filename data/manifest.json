@@ -1,0 +1,39 @@
+{
+  "n_genes": 4283,
+  "n_pos": 139,
+  "n_features": 18,
+  "columns": [
+    "genetics",
+    "expression",
+    "expression_geo",
+    "expression_ot",
+    "pathways",
+    "pathways_reactome",
+    "network_neighbors",
+    "interactome_community",
+    "animal_model",
+    "causal_inference",
+    "rwr_network",
+    "disease_submodule",
+    "mutated_submodule",
+    "knockout",
+    "overexpression",
+    "tissue_lung",
+    "genetics_gwas",
+    "knockout_depmap"
+  ],
+  "dropped_collinear": [
+    {
+      "dropped": "pathways_gmt",
+      "kept_twin": "pathways",
+      "abs_pearson": 0.959624795852587
+    },
+    {
+      "dropped": "genetics_clinvar",
+      "kept_twin": "genetics",
+      "abs_pearson": 0.9796870863306215
+    }
+  ],
+  "string_n_edges": 81958,
+  "string_isolates": 896
+}
