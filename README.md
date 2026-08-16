@@ -1,6 +1,6 @@
 # IPF gene ranker
 
-Public code for the portfolio note
+Private implementation for the portfolio note
 [Drug target identification for idiopathic pulmonary fibrosis (IPF) via geometric deep learning on a knowledge graph](https://andreslanzos.quarto.pub/portfolio/articles/2026-08-16-ipf-target-ranker/).
 
 Rank 4,283 Open Targets IPF-associated genes so that 139 clinical-stage
@@ -49,4 +49,4 @@ configs/ranker.yaml       frozen hyperparameters
 GNN training is transductive: test labels are masked, test features still flow
 on STRING edges. XGBoost is inductive. Primary metric is AUPRC.
 
-Data licenses: [data/SOURCES.md](data/SOURCES.md). Code is MIT.
+Data licenses: [data/SOURCES.md](data/SOURCES.md). Code is proprietary. All rights reserved.
